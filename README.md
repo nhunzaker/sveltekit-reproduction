@@ -14,7 +14,17 @@ Then cURL the request with the Accept header:
 curl --header "Accept: text/html" http://localhost:3000
 ```
 
-In the development console, you'll see that the Request object for the API URL also includes this header (and any other header that you provide).
+In the development console, you'll see that the Request object for the API URL also includes this header (and any other header that you provide):
+
+```
+External Fetch:
+https://www.gov.uk/bank-holidays.json
+Accept Header: image/png
+
+External Fetch:
+https://www.gov.uk/bank-holidays.json
+Accept Header: text/html
+```
 
 ## Why does this matter?
 
